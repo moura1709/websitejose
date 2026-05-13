@@ -109,7 +109,7 @@ rgba muda para cor preta e uma transparencia de 30%
     justify-content: center;
 }
 .manual-btn {
-    border: 2px solid white;
+    border: 2px solid rgb(0, 0, 0);
     padding: 5px; /*tamanho do botão */
     border-radius: 10px; 
     cursor: pointer;
@@ -117,13 +117,13 @@ rgba muda para cor preta e uma transparencia de 30%
     transition: 0.3s; 
  }
  .manual-btn:hover{
-    background-color:white /*muda a cor (por completo) quando clicar */
+    background-color:rgb(0, 0, 0) /*muda a cor (por completo) quando clicar */
  }
 
  .rodape-principal 
  {
-    background-color:#090909;
-    color: white;
+    background-color:#ffffff;
+    color: rgb(0, 0, 0);
     padding: 40px 0 20px 0;
     margin-top: 50px;
  }
@@ -142,7 +142,7 @@ rgba muda para cor preta e uma transparencia de 30%
     opacity: 0.8;
  }
  .links-sociais a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
